@@ -19,7 +19,7 @@ end
 
 group :test do
   gem "timecop"
-  gem "activesupport", "~> 3.2.16"
+  gem "activesupport", ">= 3.2.16"
   gem "shoulda"
   gem "mhennemeyer-output_catcher"
   gem "rr", ">= 1.0.4"
